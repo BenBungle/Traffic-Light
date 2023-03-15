@@ -14,10 +14,12 @@ const Home = () => {
 				<div className={`redLight ${selectedLight === "red"? "selected":""}`}
 				onClick={()=> handleLightClick("red")}>
 				</div>
-				<div className={`yellowLight ${selectedLight === "red"? "selected":""}`}
-				onClick={()=> handleLightClick("red")}>
+				<div className={`yellowLight ${selectedLight === "yellow"? "selected":""}`}
+				onClick={()=> handleLightClick("yellow")}>
 				</div>
-				<div className="greenLight"></div>
+				<div className={`greenLight ${selectedLight ==="green"? "selected":""}`}
+					onClick={()=> handleLightClick("green")}>
+				</div>
 			</div>
 			
 		</div>
@@ -25,3 +27,4 @@ const Home = () => {
 };
 
 export default Home;
+//$ template literal {funcion === "algo"? es esto real pasa el "algo" defino el "algo" y los dos : es el else o sino pasa "" que es nada, como estamos usando onclick la nada es false statement de "algo" es decir el mouse no esta en encima del click}

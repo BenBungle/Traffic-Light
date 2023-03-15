@@ -54,7 +54,7 @@ body{
     background-color: green;
 }
 
-.redLight selected{
+.redLight.selected{
     margin: auto;
     border-radius: 100%;
     width: 50px;
@@ -63,7 +63,7 @@ body{
     box-shadow: 0px 0px 5px 5px rgb(207, 238, 185);
 
 }
-.yellowLight selected {
+.yellowLight.selected {
     margin: auto;
     border-radius: 100%;
     width: 50px;
@@ -71,7 +71,7 @@ body{
     background-color: yellow;
     box-shadow: 0px 0px 5px 5px rgb(235, 238, 185);
 }
-.greenLight selected {
+.greenLight.selected {
     margin: auto;
     border-radius: 100%;
     width: 50px;
